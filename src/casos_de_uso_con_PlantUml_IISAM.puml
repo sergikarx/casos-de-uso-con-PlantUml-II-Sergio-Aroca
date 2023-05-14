@@ -1,15 +1,20 @@
 @startuml
 left to right direction
-:Agente: as Actor
+:Cliente Bancario: as ActorAscen
+:ClienteCorporativo: as ActorDescendiente
+:ClienteNormal: as ActorDescendiente2
 
-(Enviar solicitud crédito) as Enviar
-(Enviar solicitud crédito personal) as EnviarPersonal
-(Enviar solicitud crédito empresarial) as EnviarEmpresarial
+ActorDescendiente --|> ActorAscen
+ActorDescendiente2 --|>ActorAscen
+note right of ActorAscen
+Actor Antecesor
+end note
 
-Actor --> Enviar
+note right of ActorDescendiente
+Actor descendiente
+end note
 
-EnviarPersonal --|> Enviar
-EnviarEmpresarial --|> Enviar
-
-
+note right of ActorDescendiente2
+Actor descendiente
+end note
 @enduml
