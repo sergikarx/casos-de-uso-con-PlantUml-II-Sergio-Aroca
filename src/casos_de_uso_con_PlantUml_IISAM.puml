@@ -1,27 +1,20 @@
 @startuml
 left to right direction
 :Empleado: as Emple
-:Administrador: as Admin
 
-rectangle EmpresaPedidos {
-(Introducir Pedido) as Introducir
-(Cancelar Pedido) as Cancelar
-(Obtener Estado Pedido) as Obtener
-(Borrar Pedido) as Borrar
-(Buscar Pedido) as BuscarP
-(Alta Cliente) as Alta
-(Buscar Cliente) as BuscarC
-(Nuevo Producto) as NuevoP
-(Borrar Producto) as BorrarP
-}
-Emple -- Introducir
-Emple -- Cancelar
-Emple -- Obtener
-Emple -- Borrar
-Emple -- BuscarP
-Emple -- Alta
-Emple -- BuscarC
-Admin -- NuevoP
-Admin -- BorrarP
+Emple -- (Alta Cliente)
+(Alta Cliente) "extiende"..> (Introducir Pedido)
+(Introducir Pedido) "incluye"..> (Buscar Cliente)
+Emple -- (Introducir Pedido)
+
+Emple -- (Obtener Estado Pedido)
+(Obtener Estado Pedido) ..>"incluye" (Buscar Pedido)
+Emple -- (Buscar Pedido)
+Emple -- (Cancelar Pedido)
+(Pago con tarjeta) ..>"extiende" (Introducir Pedido)
+(Pago en Cuenta) ..>"extiende" (Introducir Pedido)
+(Cancelar Pedido)..>"incluye" (Buscar Pedido)
+
+note "... el modelo no está completo" as N2
 
 @enduml
