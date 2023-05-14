@@ -4,8 +4,24 @@ left to right direction
 :Administrador: as Admin
 
 rectangle EmpresaPedidos {
-
+(Introducir Pedido) as Introducir
+(Cancelar Pedido) as Cancelar
+(Obtener Estado Pedido) as Obtener
+(Borrar Pedido) as Borrar
+(Buscar Pedido) as BuscarP
+(Alta Cliente) as Alta
+(Buscar Cliente) as BuscarC
+(Nuevo Producto) as NuevoP
+(Borrar Producto) as BorrarP
 }
-Emple -- EmpresaPedidos
-Admin -- EmpresaPedidos
+Emple -- Introducir
+Emple -- Cancelar
+Emple -- Obtener
+Emple -- Borrar
+Emple -- BuscarP
+Emple -- Alta
+Emple -- BuscarC
+Admin -- NuevoP
+Admin -- BorrarP
+
 @enduml
