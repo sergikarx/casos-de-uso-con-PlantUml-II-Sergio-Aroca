@@ -1,19 +1,12 @@
 @startuml
 left to right direction
-:Socio: as Actor
-:Bibliotecario: as Actor2
+:Bibliotecario: as Actor
 
-rectangle Biblioteca as Biblioteca  {
-(Reservar Libro) as Reservar
-(Prestar Libro) as Prestar
-(Devolver Libro) as Devolver
-(Actualizar Catálogo) as Actualizar
-}
 
-Actor -- Reservar
-Actor -- Prestar
-Actor -- Devolver
+(Baja Socio) as Baja
+(Buscar Socio) as Buscar
 
-Actor2 -- Prestar
-Actor2 -- Actualizar
+Actor --> Baja
+Baja .."<<include>>" Buscar
+
 @enduml

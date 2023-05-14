@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3562debb-26d0-4d01-99f7-cafbe9ff9c62" name="Changes" comment="Primer ejemplo del video">
-      <change beforePath="$PROJECT_DIR$/src/casos_de_uso_con_PlantUml_IISAM.puml" beforeDir="false" afterPath="$PROJECT_DIR$/src/casos_de_uso_con_PlantUml_IISAM.puml" afterDir="false" />
-    </list>
+    <list default="true" id="3562debb-26d0-4d01-99f7-cafbe9ff9c62" name="Changes" comment="Segundo ejemplo del video" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -63,7 +61,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684078869827</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Segundo ejemplo del video">
+      <created>1684079223597</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1684079223597</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -80,6 +85,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Creando el repositorio" />
     <MESSAGE value="Primer ejemplo del video" />
-    <option name="LAST_COMMIT_MESSAGE" value="Primer ejemplo del video" />
+    <MESSAGE value="Segundo ejemplo del video" />
+    <option name="LAST_COMMIT_MESSAGE" value="Segundo ejemplo del video" />
   </component>
 </project>
