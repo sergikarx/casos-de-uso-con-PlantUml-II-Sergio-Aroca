@@ -1,12 +1,15 @@
 @startuml
 left to right direction
-:Bibliotecario: as Actor
+:Agente: as Actor
 
 
-(Baja Socio) as Baja
-(Buscar Socio) as Buscar
+(Evaluar Solicitud de Crédito) as Evaluar
+(Solicitar Información adicional al cliente) as Solicitar
 
-Actor --> Baja
-Baja ..>"<<include>>" Buscar
+Actor --> Evaluar
+Solicitar ..>"<<extend>>" Evaluar
+note right of Solicitar
+Si ingresos <1000
+end note
 
 @enduml
