@@ -1,20 +1,19 @@
 @startuml
 left to right direction
-:Actor: as Actor
-:Actor: as Actor2
+:Socio: as Actor
+:Bibliotecario: as Actor2
 
-rectangle Sistema as Sistema  {
-(Caso de uso) as Caso1
-(Caso de uso) as Caso2
-(Caso de uso) as Caso3
+rectangle Biblioteca as Biblioteca  {
+(Reservar Libro) as Reservar
+(Prestar Libro) as Prestar
+(Devolver Libro) as Devolver
+(Actualizar Catálogo) as Actualizar
 }
-note right of Sistema : Entorno del sistema.
-note left of Sistema : Comunicación.
 
-Actor -- Caso1
-Actor -- Caso2
-Actor -- Caso3
+Actor -- Reservar
+Actor -- Prestar
+Actor -- Devolver
 
-Actor2 -- Caso1
-Actor2 -- Caso3
+Actor2 -- Prestar
+Actor2 -- Actualizar
 @enduml
