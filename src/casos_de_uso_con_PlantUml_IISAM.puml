@@ -7,6 +7,6 @@ left to right direction
 (Buscar Socio) as Buscar
 
 Actor --> Baja
-Baja .."<<include>>" Buscar
+Baja ..>"<<include>>" Buscar
 
 @enduml
