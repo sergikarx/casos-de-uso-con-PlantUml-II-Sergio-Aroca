@@ -2,14 +2,14 @@
 left to right direction
 :Agente: as Actor
 
+(Enviar solicitud crédito) as Enviar
+(Enviar solicitud crédito personal) as EnviarPersonal
+(Enviar solicitud crédito empresarial) as EnviarEmpresarial
 
-(Evaluar Solicitud de Crédito) as Evaluar
-(Solicitar Información adicional al cliente) as Solicitar
+Actor --> Enviar
 
-Actor --> Evaluar
-Solicitar ..>"<<extend>>" Evaluar
-note right of Solicitar
-Si ingresos <1000
-end note
+EnviarPersonal --|> Enviar
+EnviarEmpresarial --|> Enviar
+
 
 @enduml
