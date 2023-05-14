@@ -1,20 +1,11 @@
 @startuml
 left to right direction
-:Cliente Bancario: as ActorAscen
-:ClienteCorporativo: as ActorDescendiente
-:ClienteNormal: as ActorDescendiente2
+:Empleado: as Emple
+:Administrador: as Admin
 
-ActorDescendiente --|> ActorAscen
-ActorDescendiente2 --|>ActorAscen
-note right of ActorAscen
-Actor Antecesor
-end note
+rectangle EmpresaPedidos {
 
-note right of ActorDescendiente
-Actor descendiente
-end note
-
-note right of ActorDescendiente2
-Actor descendiente
-end note
+}
+Emple -- EmpresaPedidos
+Admin -- EmpresaPedidos
 @enduml

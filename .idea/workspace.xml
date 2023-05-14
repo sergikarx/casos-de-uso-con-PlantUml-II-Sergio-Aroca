@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3562debb-26d0-4d01-99f7-cafbe9ff9c62" name="Changes" comment="Relaciones entre casos de uso: Herencia (primer ejemplo)">
+    <list default="true" id="3562debb-26d0-4d01-99f7-cafbe9ff9c62" name="Changes" comment="Relaciones entre Actores: Herencia (primer ejemplo)">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/casos_de_uso_con_PlantUml_IISAM.puml" beforeDir="false" afterPath="$PROJECT_DIR$/src/casos_de_uso_con_PlantUml_IISAM.puml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -98,7 +99,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684083710109</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Relaciones entre Actores: Herencia (primer ejemplo)">
+      <created>1684084356761</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1684084356761</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -120,6 +128,7 @@
     <MESSAGE value="Relaciones entre casos de uso, Inclusión(correcion de flecha)" />
     <MESSAGE value="Relaciones entre casos de uso: Extensión (primer ejemplo)" />
     <MESSAGE value="Relaciones entre casos de uso: Herencia (primer ejemplo)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Relaciones entre casos de uso: Herencia (primer ejemplo)" />
+    <MESSAGE value="Relaciones entre Actores: Herencia (primer ejemplo)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Relaciones entre Actores: Herencia (primer ejemplo)" />
   </component>
 </project>
